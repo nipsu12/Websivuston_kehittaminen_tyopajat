@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <style>
+      h1 {
+        color: rgb(255, 170, 242);
+      }
+      h2 {
+        color: rgb(231, 39, 202);
+      }
+    </style>
+    <title>My First HTML Page</title>
+
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+    <h1 style="color: rgb(255, 182, 227)">Nita Lallimo</h1>
+    <p>
+      Olen 21-vuotias opiskelija Espoosta. Opiskelen tietojenkasittely
+      tradenomiksi Laureassa.
+    </p>
+
+    <main>
+    <section id="about">
+      <h2>Minusta</h2>
+      <p>Tyoskentelen opintojen ohessa vuoropäällikkona Leos Leikkimaassa noin 15 tuntia viikossa.</p>
+    </section>
+  </main>
+
+    <img src="./images/IMG_8185Pieni.jpeg" alt="Oma kuva">
+
+    <header>
+    <h1>Lisatietoja alla</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+    <h2>Harrastukseni</h2>
+    <ul>
+      <li>Kuntosali</li>
+      <li>Lukeminen</li>
+      <li>Kulttuuri</li>
+    </ul>
+
+    <a href="https://oopperabaletti.fi">Suomen kansallisooppera ja -baletti</a>
+    <table>
+      <tr>
+        <th>Kurssi</th>
+        <th>Kurssitunniste</th>
+      </tr>
+      <tr>
+        <td>Liiketoimintaymparistot</td>
+        <td>ND00CC00-3002</td>
+      </tr>
+      <tr>
+        <td>Professional Communication in English</td>
+        <td>HL00BY89-3035</td>
+      </tr>
+      <tr>
+        <td>Websivuston kehittaminen</td>
+        <td>ND00CC04-3002</td>
+      </tr>
+    </table>
+
+    <ul class="pseudo-list">
+      <li>Vaaleanpunainen</li>
+      <li>Pinkki</li>
+      <li>Vaaleanpunainen</li>
+      <li>Pinkki</li>
+    </ul>
+
+    <button class="transition-button">Hover me</button>
+    <div class="animation-box"></div>
+    <div class="responsive-box">Resize the window to see the effect</div>
+
+    <img
+      src="images/IMG_8296Pieni.jpeg"
+      alt="Testikuva"
+      class="filter-image"
+    >
+    <blockquote class="quote">Testilause tulee tahan.</blockquote>
+    <div class="flex-container">
+    <div class="box">Hei</div>
+    <div class="box">Hej</div>
+    <div class="box">Hello</div>
+  </div>
+
+  <div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+  </div>
+
+    <form>
+      <label for="name">Nimi:</label>
+      <input type="text" id="name" name="name" >
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" >
+      <input type="submit" value="Submit">
+    </form>
+
+    <footer>
+    <p>Copyright 2025</p>
+  </footer>
+  
+  </body>
+</html>
