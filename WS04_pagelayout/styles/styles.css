@@ -58,6 +58,12 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #38e0f7;
 }
+.content-box {
+  padding: 20px;
+  margin: 10px;
+  background-color: hsl(49, 100%, 72%);
+  border: 1px solid #ccc;
+}
 
 .transition-button {
   background-color: rgb(255, 138, 245);
@@ -128,29 +134,29 @@ input[type="submit"]:hover {
   text-align: center;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-  }
-  
-  .grid-item {
-    background-color: rgb(255, 146, 251);
-    padding: 20px;
-    text-align: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgb(255, 146, 251);
+  padding: 20px;
+  text-align: center;
+}
+.responsive-box {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
   .responsive-box {
-    padding: 20px;
-    text-align: center;
+    background-color: lightcoral;
   }
-  
-  @media (max-width: 600px) {
-    .responsive-box {
-      background-color: lightcoral;
-    }
+}
+
+@media (min-width: 601px) {
+  .responsive-box {
+    background-color: rgb(43, 255, 244);
   }
-  
-  @media (min-width: 601px) {
-    .responsive-box {
-      background-color: rgb(43, 255, 244);
-    }
-  }
+}
