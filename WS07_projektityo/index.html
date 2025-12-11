@@ -6,11 +6,17 @@
 <link rel="stylesheet" href="styles/styles.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  h1 {
+        color: rgb(0, 94, 255);
+      }
+</style>
 
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <header>
+        <nav class="navbar custom-nav">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">Menu</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +43,60 @@
         
         <h1>Elämää auringon alla Kreikassa!</h1>
         <p>Tervetuloa talvenajan parhaalle aika- sekä mielikuvitusmatkalle Kreikan saarelle Kreetalle. Sivulta löytyy yhteenvedon lisäksi hauskoja faktoja sekä käytännön vinkkejä!</p>
-        <img src="images/kuva1.jpeg" alt="Responsive Image" class="responsive-image">
+        <img src="images/kuva1.jpeg" alt="Responsive Image" class="responsive-image d-block mx-auto">
+  </header>
+
+<main>
+  <h2>Tervetuloa tutustumaan elämään Välimeren sydämessä</h2>
+  <p>
+    Kreikka tarjoaa ainutlaatuisen yhdistelmän rentoa elämäntyyliä, rikasta historiaa,
+    lämminhenkistä kulttuuria ja kauniita maisemia. Tällä sivustolla esittelemme arjen
+    todelliset kasvot: asumisen, työnteon, kulttuurin ja käytännön asiat.
+  </p>
+
+<div class="container">
+  <div class="row">
     
-    
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem">
+        <img src="images/Arki.jpeg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Asuminen ja arki Kreikassa</h5>
+          <p class="card-text">Kuva kotiovelta kesäiltana.</p>
+          <a href="arki.html" class="btn btn-primary">Arki -sivulle!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem">
+        <img src="images/Tyoskentely.jpeg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Muutto ja työskentely Kreikassa</h5>
+          <p class="card-text">Kuva työpaikan taukoalueelta.</p>
+          <a href="tyoskentely.html" class="btn btn-primary">Työskentely -sivulle!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 18rem">
+        <img src="images/Kulttuuri.jpeg" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+          <h5 class="card-title">Kieli ja kulttuuri Kreikassa</h5>
+          <p class="card-text">Kuva perinteisestä ruuasta taveranassa.</p>
+          <a href="kulttuuri.html" class="btn btn-primary">Kulttuuri -sivulle!</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</main>
+
+    <footer>
+  <p>© 2025 Elämää Kreikassa</p>
+</footer>
     </body>

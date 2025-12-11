@@ -2,3 +2,11 @@
       max-width: 100%;
       height: auto;
     }
+
+    body {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.custom-nav {
+  background-color: #acd3ff !important;
+}
