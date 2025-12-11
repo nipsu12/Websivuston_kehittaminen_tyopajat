@@ -10,3 +10,13 @@
 .custom-nav {
   background-color: #acd3ff !important;
 }
+p {
+  margin-bottom: 1.5em;
+  line-height: 1.6;
+}
+th,
+td {
+  border: 1px solid #0a0101;
+  padding: 8px;
+  text-align: left;
+}
